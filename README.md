@@ -23,3 +23,6 @@ https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator-export-ssl-certi
 %JAVA_HOME%/bin/keytool -keystore ..\lib\security\cacerts -delete -alias cosmos_emulator <br>
 3 -> import the cert <br>
 %JAVA_HOME%/bin/keytool -keystore ..\lib\security\cacerts -importcert -alias cosmos_emulator -file %EMULATOR_CERT_PATH% <br>
+
+
+Note : default keystore password --> changeit <br>
