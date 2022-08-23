@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: get-started-with-cosmos-db
+  cloud:    azure:      cosmos:
+        enabled: true        endpoint: https://localhost:8081
+        key: C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==
+        database: ecommerce
+        
+server:  port: 9090        
+  
+logging:
+  #config: classpath:logback-local-spring.xml
+  level:
+    com.azure.cosmos.implementation.SqlQuerySpecLogger: debug  
+    com.azure.cosmos.implementation.query: debug
