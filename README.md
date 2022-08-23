@@ -1,5 +1,3 @@
-# get-started-with-cosmos-db
-
 # steps to install azure cosmos db emulator for Window OS
 
 1 -> download & install the binary from https://aka.ms/cosmosdb-emulator. <br>
